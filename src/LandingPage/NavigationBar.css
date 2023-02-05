@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.nav-links ul {
+  display: flex;
+  margin-left: 35px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.logo-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links ul a,
+.a-nav {
+  margin-right: 60px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #aaa5ce;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links ul a:active {
+  color: #4b4770;
+  font-weight: 600;
+}
+.nav-links ul a:hover,
+.a-nav:hover {
+  color: #4b4770;
+  font-weight: 600;
+  transition: 0.02s;
+}
+
+.aijan-logo {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #282828;
+  border-right: 1px solid #d6d6d6;
+  padding-right: 35px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 8.5%;
+}
+.sign-up {
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #4b4770;
+  border: none;
+  cursor: pointer;
+}
+.login {
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #4b4770;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  background-color: #4b4770;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.login:hover {
+  background-color: #4b4770;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .navbar {
+    height: 110px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-top: 60px;
+  }
+  .container {
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    border: none;
+  }
+  .logo-links {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-btn {
+    display: flex;
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+    margin-top: -2px;
+  }
+  .aijan-logo {
+    font-size: 24px;
+    line-height: 30px;
+    border: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  .buttons {
+    display: none;
+  }
+}

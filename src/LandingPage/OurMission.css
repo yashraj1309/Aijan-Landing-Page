@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.ourMission {
+  height: 500px;
+  width: 82%;
+  margin: 110px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Mission-img img {
+  width: 100%;
+  max-height: 500px;
+}
+
+.ourMissionHeader-forMobile {
+  display: none;
+}
+
+.mission-content {
+  height: 386px;
+  width: 60%;
+  text-align: left;
+  margin-left: 96px;
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.mission-content h1 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #4b4770;
+  align-items: left;
+}
+
+.mission-content p {
+  margin-top: 25px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 50px;
+  color: #323232;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .ourMission {
+    height: 500px;
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .mission-content {
+    height: auto;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+  .mission-content h1 {
+    display: none;
+  }
+  .ourMissionHeader-forMobile {
+    display: block;
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #4b4770;
+    text-align: center;
+  }
+  .Mission-img img {
+    max-height: 300px;
+    margin: 30px auto 12px auto;
+  }
+  .mission-content p {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.solution {
+  /* width: 1380px; */
+  width: 95%;
+  height: 922px;
+  margin: 100px auto;
+  border-radius: 24px;
+  background-color: #f5f5f5;
+  padding: 70px;
+}
+
+.solution h1 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #4b4770;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin-bottom: 51px;
+}
+
+.solution-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.solution-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: left;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  width: 609px;
+  height: 686px;
+}
+
+.solution-content-part {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: left;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.solution-content-part p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 46px;
+  color: #323232;
+  background-color: #f5f5f5;
+}
+
+.solution-content-part-main {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  width: 441px;
+  height: 96px;
+  margin-bottom: 18px;
+}
+
+.solution-content-part-main h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 46px;
+  /* or 144% */
+  background-color: #f5f5f5;
+  /* Primary */
+  margin-left: 20px;
+  color: #4b4770;
+}
+
+.solution-content-part-main img {
+  box-sizing: border-box;
+  height: 96px;
+  width: 96px;
+  border-radius: 23px;
+  padding: 12px;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .solution {
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+    border-radius: none;
+    background-color: #ffffff;
+    padding: 0;
+  }
+  .solution h1 {
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 190px;
+  }
+  .solution-img {
+    background-color: transparent;
+  }
+  .solution-img img {
+    width: 260px;
+    height: 335px;
+    background-color: transparent;
+    margin-top: -165px;
+    margin-bottom: 0;
+    z-index: 90;
+  }
+  .solution-container {
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e5f5;
+    flex-direction: column-reverse;
+  }
+  .solution-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    background-color: #e6e5f5;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  .solution-content-part {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    background-color: #e6e5f5;
+  }
+
+  .solution-content-part p {
+    font-family: "Source Sans Pro";
+    width: 70%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #323232;
+    background-color: #e6e5f5;
+    margin-left: 20%;
+    margin-top: -5vh;
+  }
+
+  .solution-content-part-main {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    background-color: #e6e5f5;
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+
+  .solution-content-part-main h3 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 144% */
+    background-color: #e6e5f5;
+    /* Primary */
+    margin-left: 10px;
+    color: #4b4770;
+  }
+
+  .solution-content-part-main img {
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    padding: 9px;
+    margin-top: 5vh;
+    margin-right: 10px;
+    z-index: 20;
+  }
+}

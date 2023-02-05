@@ -1,0 +1,117 @@
+.how-it-works {
+  width: 1200;
+  height: 522px;
+  margin: 100px 120px;
+}
+
+.header-howitworks {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #4b4770;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content-howitworks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.content-frame {
+  width: 386px;
+  height: 446px;
+  background: #ffffff;
+  box-shadow: 0px 6px 54px rgba(40, 40, 40, 0.06);
+  border-radius: 25px;
+  padding: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-right: 21px;
+  text-align: center;
+}
+
+.content-frame img {
+  height: 126px;
+  width: 126px;
+}
+
+.content-frame h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 46px;
+  color: #4b4770;
+}
+
+.content-frame p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 46px;
+  text-align: center;
+  color: #323232;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .how-it-works {
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+  }
+
+  .header-howitworks {
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 30px;
+  }
+
+  .content-howitworks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .content-frame {
+    width: 335px;
+    height: 224px;
+    background: #ffffff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .content-frame img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .content-frame h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .content-frame p {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
