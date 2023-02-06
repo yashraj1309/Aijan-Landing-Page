@@ -1,6 +1,6 @@
 import "./Toggle.css";
 import React, { useState, useEffect } from "react";
-import ToggleClose from "./resources/MenuClose.svg";
+import ToggleClose from "./resources/Icon.svg";
 
 function Toggle() {
   const [show, setShow] = useState(true);
